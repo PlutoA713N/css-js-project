@@ -1,4 +1,3 @@
-<script>
 // When eyes button is clicked, toggle laser class on brain
 $(".flash").click(function() {
   $(".brain").toggleClass('laser');
@@ -25,4 +24,3 @@ $(".color").click(function() {
 $(".moves").click(function() {
   $("img").toggle();
 });
-</script>
