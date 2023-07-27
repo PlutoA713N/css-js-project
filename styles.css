@@ -90,3 +90,26 @@
   top: -10px;
   z-index: -1;
 }
+@keyframes dance {
+  from {
+    left: 800px;
+  }
+}
+@-webkit-keyframes dance {
+  from {
+    left: 800px;
+  }
+}
+@-moz-keyframes dance {
+  from {
+    left: 800px;
+  }
+}
+img {
+  animation: dance 4s infinite;
+ -webkit-animation: dance 4s infinite;
+  -moz-animation: dance 4s infinite;
+  position: absolute;
+  top: 200px;
+  left: 500px;
+}
